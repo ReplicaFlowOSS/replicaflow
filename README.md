@@ -1,10 +1,10 @@
 # ReplicaFlow
 
-> See your data move.
+> See your information move.
 
-ReplicaFlow is a real-time visualization and Control Tower for database replication and data movement.
+ReplicaFlow is the Control Tower for Information Flow.
 
-Instead of monitoring servers, ReplicaFlow visualizes the journey of your data.
+It combines visualization, monitoring, administration and learning into a single workspace.
 
 ## Why?
 
