@@ -1,3 +1,10 @@
+> ## Purpose
+>
+> **How do we build ReplicaFlow?**
+>
+> This document defines the engineering principles behind ReplicaFlow.
+> Every contributor should understand these principles before implementing new features.
+
 # ReplicaFlow Design Principles
 
 ---
@@ -17,6 +24,18 @@ Every new feature, every pull request and every design decision should be measur
 If a feature violates one of these principles, the feature should be redesigned.
 
 Not the principle.
+
+---
+
+# Project Motto
+
+> **The Control Tower for Information Flow.**
+
+Everything we build must strengthen this idea.
+
+If a feature does not support the understanding or administration of Information Flow,
+
+**it does not belong in ReplicaFlow.**
 
 ---
 
@@ -306,3 +325,38 @@ ReplicaFlow keeps the administrator inside a single mental model.
 The Control Tower remains the workplace.
 
 The tools work inside it.
+
+---
+
+# Design Principle #012
+
+# Stay focused.
+
+ReplicaFlow should solve one problem exceptionally well.
+
+That problem is the understanding and administration of **Information Flow**.
+
+Every new feature must strengthen this mission.
+
+Features that do not improve the understanding, visualization or administration of Information Flow do not belong in ReplicaFlow.
+
+### Why?
+
+Complex software becomes difficult because it tries to solve every problem.
+
+Focused software becomes exceptional because it solves one problem extraordinarily well.
+
+ReplicaFlow should always remain the **Control Tower for Information Flow.**
+
+Not another all-in-one administration suite.
+
+### Questions every new feature must answer
+
+Before implementing a new feature, ask:
+
+- Does it improve the understanding of Information Flow?
+- Does it simplify the administration of Information Flow?
+- Does it support the Control Tower philosophy?
+- Does it respect the user's mental map?
+
+If the answer is **No**, the feature probably does not belong in ReplicaFlow.
