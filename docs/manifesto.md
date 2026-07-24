@@ -1,3 +1,11 @@
+> ## Purpose
+>
+> **Why does ReplicaFlow exist?**
+>
+> This manifesto defines the vision, mission and long-term purpose of ReplicaFlow.
+>
+> It explains why the project exists, which problems it aims to solve and the values that guide every future decision.
+
 # ReplicaFlow Manifesto
 
 **Version 0.1**  
