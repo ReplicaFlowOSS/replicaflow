@@ -39,8 +39,8 @@ No production code has been written yet.
 - 📖 [Manifesto](docs/manifesto.md)
 - 💡 [Philosophy](docs/philosophy.md)
 - 🎨 [Design Principles](docs/design-principles.md)
-- 🏗️ Architecture *(coming soon)*
-- 🗺️ Roadmap *(coming soon)*
+- 🏗️ [Architecture](docs/architecture.md)
+- 🗺️ [Roadmap](doc/roadmap.md)
 
 ---
 
