@@ -1,3 +1,11 @@
+> ## Purpose
+>
+> **How do we think?**
+>
+> This document explains the philosophy behind ReplicaFlow.
+>
+> It describes how we approach complex systems, why we visualize information flow and the principles that shape every user experience.
+
 # ReplicaFlow Philosophy
 
 ---
