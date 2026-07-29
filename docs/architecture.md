@@ -48,6 +48,22 @@ The mental model is not.
 
 ---
 
+# Why Visualization
+
+Modern infrastructures generate enormous amounts of technical information.
+
+ReplicaFlow does not aim to collect more information.
+
+It aims to transform information into understanding.
+
+Visualization is therefore not decoration.
+
+Visualization is the primary interface between complex systems and human understanding.
+
+Every architectural decision ultimately serves this purpose.
+
+---
+
 # The Control Tower
 
 The Control Tower is the central workspace of ReplicaFlow.
