@@ -26,7 +26,7 @@ Before implementing code, we define:
 
 Technology follows philosophy.
 
-Never the other way around.
+Not the other way around.
 
 ---
 
@@ -56,19 +56,21 @@ ReplicaFlow Documentation v0.1
 
 ## User Experience
 
-Design the complete user experience before writing backend code.
+Design the complete user experience before implementing the backend.
 
 ### Planned Features
 
 - Control Tower concept
 - Railway visualization
+- Mental Map design
+- Navigation concepts
+- Information hierarchy
 - Explorer Mode
 - Operator Mode
 - Expert Mode
 - Workspace Profiles
+- Operations Deck concept
 - UI Mockups
-- Navigation concepts
-- Information hierarchy
 
 Goal:
 
@@ -84,7 +86,7 @@ Build the technical foundation.
 
 ### Planned Features
 
-- FastAPI Backend
+- FastAPI application
 - WebSocket communication
 - Collector framework
 - MariaDB support
@@ -115,6 +117,7 @@ Transform collected data into understandable movement.
 - Deadlocks
 - Replication lag
 - Live topology
+- Transaction visualization
 
 Goal:
 
@@ -222,7 +225,9 @@ Understanding history improves future decisions.
 
 ### Plugin Ecosystem
 
-ReplicaFlow should eventually support plugins.
+ReplicaFlow should eventually provide an extensible plugin architecture.
+
+The core platform should remain lightweight while allowing the community to extend ReplicaFlow through plugins.
 
 Possible integrations include:
 
@@ -237,9 +242,7 @@ Possible integrations include:
 
 ReplicaFlow should remain technology-independent.
 
-It follows Information Flow.
-
-Not a specific database.
+ReplicaFlow follows Information Flow, not a specific database.
 
 ---
 
@@ -249,6 +252,8 @@ The roadmap is not a promise.
 
 It is a direction.
 
+ReplicaFlow exists to help people understand and administer Information Flow.
+
 Every new feature should answer one simple question:
 
 **Does it improve the understanding or administration of Information Flow?**
@@ -256,3 +261,7 @@ Every new feature should answer one simple question:
 If the answer is no,
 
 it probably does not belong in ReplicaFlow.
+
+The roadmap will evolve.
+
+The philosophy should not.
