@@ -54,28 +54,6 @@ ReplicaFlow Documentation v0.1
 
 # Version 0.2
 
-## Backend Foundation
-
-Build the technical foundation.
-
-### Planned Features
-
-- FastAPI Backend
-- WebSocket communication
-- Collector framework
-- MariaDB support
-- MySQL support
-- Authentication
-- Configuration management
-
-Goal:
-
-Collect information in real time.
-
----
-
-# Version 0.3
-
 ## User Experience
 
 Design the complete user experience before writing backend code.
@@ -95,6 +73,28 @@ Design the complete user experience before writing backend code.
 Goal:
 
 Anyone should understand ReplicaFlow by simply looking at the interface.
+
+---
+
+# Version 0.3
+
+## Backend Foundation
+
+Build the technical foundation.
+
+### Planned Features
+
+- FastAPI Backend
+- WebSocket communication
+- Collector framework
+- MariaDB support
+- MySQL support
+- Authentication
+- Configuration management
+
+Goal:
+
+Collect information in real time.
 
 ---
 
