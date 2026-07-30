@@ -1,4 +1,4 @@
-# Security at ReplicaFlow
+# Security Policy at ReplicaFlow
 
 > **Security is not a feature. It is a responsibility.**
 
