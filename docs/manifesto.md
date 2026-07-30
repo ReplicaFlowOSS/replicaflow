@@ -62,6 +62,22 @@ It transforms invisible database activity into understandable visual journeys an
 
 ---
 
+# Shared Understanding
+
+ReplicaFlow is more than software.
+
+It is a shared language for understanding Information Flow.
+
+Before building features, we build understanding.
+
+Before writing code, we establish philosophy.
+
+Before making decisions, we encourage discussion.
+
+Because software becomes stronger when the people building it share the same mental model.
+
+---
+
 # Philosophy
 
 Every database is alive.
@@ -79,6 +95,12 @@ We believe that understanding creates confidence.
 ReplicaFlow does not simplify databases.
 
 ReplicaFlow simplifies understanding.
+
+> **Understanding comes before implementation.**
+>
+> *Technology changes.*
+>
+> *Understanding lasts.*
 
 The underlying data never changes.
 
@@ -209,7 +231,25 @@ ReplicaFlow proves its value
 
 ---
 
-# Open Source
+# Community
+
+ReplicaFlow is built together.
+
+Ideas grow through discussion.
+
+Knowledge grows through sharing.
+
+Different perspectives make better decisions.
+
+The community contributes ideas.
+
+The project protects its philosophy.
+
+Both are essential for the long-term vision of ReplicaFlow.
+
+---
+
+# Open by Design
 
 ReplicaFlow belongs to the community.
 
@@ -221,7 +261,7 @@ Commercial support is welcome.
 
 Commercial success should never reduce community freedom.
 
-Vendor lock-in is not.
+ReplicaFlow should never create vendor lock-in.
 
 ---
 
@@ -409,6 +449,10 @@ The software evolves together with the administrator.
 
 # Closing Statement
 
-ReplicaFlow is not built to replace database administrators.
+ReplicaFlow is not built to replace administrators.
 
-**ReplicaFlow is built to help them become better ones.**
+ReplicaFlow is built to help people understand Information Flow.
+
+Because understanding creates confidence.
+
+And confident people make better decisions.
