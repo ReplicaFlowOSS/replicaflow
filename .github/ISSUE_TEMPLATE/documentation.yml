@@ -1,0 +1,133 @@
+name: "📚 Improve the documentation"
+description: "Help make ReplicaFlow easier to understand for everyone."
+title: "[Documentation]: "
+labels:
+  - documentation
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Welcome 👋
+
+        Thank you for taking the time to help improve ReplicaFlow.
+
+        Documentation is often the first experience someone has with a project.
+
+        Every clarification,
+        every correction,
+        and every example
+        helps someone learn.
+
+        You're helping make ReplicaFlow easier to understand for everyone.
+
+        ---
+
+        There are no small improvements.
+
+        Even fixing a typo can help someone who comes after you.
+
+  - type: textarea
+    id: documentation-improvement
+    attributes:
+      label: "📚 What would you like to improve?"
+      description: "Tell us what you think could be improved."
+      placeholder: |
+        I found...
+
+        I think this section could be clearer because...
+
+        I was expecting...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: "🤔 What made you notice this?"
+      description: |
+        Was something confusing?
+
+        Was something missing?
+
+        Did something take longer to understand than expected?
+      placeholder: |
+        I noticed...
+
+        While reading...
+
+        It became confusing when...
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "✍️ Do you already have a suggestion?"
+      description: |
+        If you already have an idea how to improve it,
+        we'd love to hear it.
+
+        If not, that's perfectly okay.
+      placeholder: |
+        I would suggest...
+
+        Maybe it could say...
+
+        Or simply describe your idea.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: "📍 Where is it?"
+      description: "Choose the area that seems closest. It's perfectly okay if you're not sure."
+      options:
+        - README
+        - Manifesto
+        - Philosophy
+        - Design Principles
+        - Architecture
+        - Roadmap
+        - Contributing
+        - Code of Conduct
+        - Security
+        - Wiki
+        - User Interface
+        - Other
+        - I'm not sure
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "💬 Anything else you'd like to share?"
+      description: "Share anything else that could help us understand your suggestion."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: community
+    attributes:
+      label: "Community agreement"
+      description: "Before submitting, please confirm the following."
+      options:
+        - label: "I understand that good documentation grows through collaboration."
+          required: true
+        - label: "I'm open to questions and feedback from the community."
+          required: true
+        - label: "I understand that clarity is more important than complexity."
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ## ❤️ Thank you
+
+        Every improvement helps someone learn.
+
+        Thank you for making ReplicaFlow easier to understand.
