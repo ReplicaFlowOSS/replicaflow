@@ -14,7 +14,15 @@
 
 ReplicaFlow is not just another monitoring tool.
 
-It is a different way of thinking about database systems.
+It is a different way of thinking about Information Flow.
+
+ReplicaFlow is also a different way of designing software.
+
+Understanding comes before implementation.
+
+Shared language comes before collaboration.
+
+Philosophy comes before technology.
 
 Most database tools focus on infrastructure.
 
@@ -26,7 +34,7 @@ We believe that understanding the movement of information is more valuable than 
 
 # The Invisible World
 
-Modern databases perform millions of operations every day.
+Modern information systems perform millions of operations every day.
 
 Transactions are created.
 
@@ -66,6 +74,10 @@ ReplicaFlow transforms technical database activity into visual concepts that our
 
 Understanding should never depend on memorizing SQL commands.
 
+Visualization is explanation.
+
+A good visualization reduces complexity without hiding reality.
+
 ---
 
 # The Control Tower
@@ -95,6 +107,12 @@ ReplicaFlow uses railway traffic as its primary mental model.
 Not because trains look beautiful.
 
 But because almost every person already understands railway systems.
+
+The railway is not a user interface.
+
+It is a mental model.
+
+The interface simply reflects it.
 
 People understand:
 
@@ -140,6 +158,10 @@ Every operation has a journey.
 
 ReplicaFlow exists to visualize that journey.
 
+ReplicaFlow follows Information Flow, not technology.
+
+If information moves, ReplicaFlow can visualize its journey.
+
 ---
 
 # The Human First Principle
@@ -152,7 +174,7 @@ People should not adapt to software.
 
 ReplicaFlow translates database behavior into concepts humans already understand.
 
-The database never changes.
+The technology never changes.
 
 Only the explanation changes.
 
@@ -212,11 +234,21 @@ Calm interfaces create calm administrators.
 
 Calm administrators solve incidents faster.
 
+Information should never be hidden.
+
+It should be revealed progressively.
+
+The same truth should be understandable for beginners and experts alike.
+
 ---
 
 # Beyond Databases
 
-ReplicaFlow begins with MariaDB.
+ReplicaFlow starts with MariaDB.
+
+Its philosophy does not.
+
+ReplicaFlow follows Information Flow wherever it exists.
 
 But ReplicaFlow is not limited to databases.
 
@@ -250,6 +282,32 @@ The community is part of the project.
 
 Not an addition to it.
 
+Discussion improves ideas.
+
+Shared understanding improves software.
+
+The best solutions emerge when different perspectives work together.
+
+---
+
+# Shared Understanding
+
+ReplicaFlow is built around shared understanding.
+
+The software.
+
+The documentation.
+
+The user experience.
+
+The community.
+
+They all speak the same language.
+
+Because understanding should not stop at the interface.
+
+It should guide the entire project.
+
 ---
 
 # Our Philosophy
@@ -267,3 +325,9 @@ People learn.
 People improve.
 
 ReplicaFlow simply helps them understand what their systems are trying to say.
+
+Technology moves information.
+
+People move technology forward.
+
+ReplicaFlow exists to help both understand each other.
