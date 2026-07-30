@@ -1,4 +1,4 @@
-# Security Policy at ReplicaFlow
+# Security at ReplicaFlow
 
 > **Security is not a feature. It is a responsibility.**
 
@@ -174,3 +174,19 @@ The security of ReplicaFlow is not protected by a single person.
 It is protected by an entire community working together.
 
 > **See your data move.**
+
+---
+
+# Reporting a Vulnerability
+
+If you discover a security vulnerability, please report it privately to the Core Maintainers.
+
+Please include as much information as possible to help us understand, reproduce and resolve the issue.
+
+A detailed security process, disclosure workflow and future response policy will be documented in:
+
+`docs/security-process.md`
+
+Until then, please avoid public disclosure before a fix is available.
+
+Thank you for helping keep ReplicaFlow secure.
