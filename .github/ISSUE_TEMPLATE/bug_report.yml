@@ -7,32 +7,32 @@ body:
   - type: markdown
     attributes:
       value: |
-# Welcome 👋
-
-Thank you for taking the time to help improve ReplicaFlow.
-
-Whether you've discovered a small visual issue or a critical problem,
-you're helping make ReplicaFlow better for everyone.
-
----
-
-## Thank you for helping us improve ReplicaFlow
-
-Every report helps us make ReplicaFlow clearer, safer and more reliable.
-
-A bug can be anything that does not look, feel or behave as expected:
-- a button that does nothing
-- an incorrect translation
-- a visual problem
-- unexpected data
-- confusing behavior
-- a technical failure
-
-You do not need to know why it happened.
-
-Just tell us what you experienced.
-
-**Together we'll figure out the rest.**
+        # Welcome 👋
+        
+        Thank you for taking the time to help improve ReplicaFlow.
+        
+        Whether you've discovered a small visual issue or a critical problem,
+        you're helping make ReplicaFlow better for everyone.
+        
+        ---
+        
+        ## Thank you for helping us improve ReplicaFlow
+        
+        Every report helps us make ReplicaFlow clearer, safer and more reliable.
+        
+        A bug can be anything that does not look, feel or behave as expected:
+         - a button that does nothing
+         - an incorrect translation
+         - a visual problem
+         - unexpected data
+         - confusing behavior
+         - a technical failure
+       
+        You do not need to know why it happened.
+        
+        Just tell us what you experienced.
+        
+        **Together we'll figure out the rest.**
 
   - type: textarea
     id: what-happened
