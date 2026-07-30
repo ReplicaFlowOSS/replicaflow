@@ -1,0 +1,125 @@
+name: "💬 Share an idea"
+description: "Share a thought, question or idea that could help shape ReplicaFlow."
+title: "[Idea]: "
+labels:
+  - discussion
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Welcome 👋
+
+        Thank you for taking the time to help improve ReplicaFlow.
+
+        Great ideas rarely appear fully formed.
+
+        Sometimes they begin with a simple thought,
+        a question or simply a "what if...".
+
+        You don't need to have all the answers.
+
+        Share your idea with us.
+
+        Together we'll explore where it leads.
+
+        ---
+
+        There are no right or wrong answers.
+
+        If a question doesn't apply or you're simply not sure,
+        feel free to leave it blank.
+
+        Even a single thought can become a great idea.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: "💡 What's your idea?"
+      description: "Tell us about your idea in your own words."
+      placeholder: |
+        I'd love to see...
+
+        What if ReplicaFlow could...
+
+        I was thinking about...
+    validations:
+      required: true
+
+  - type: textarea
+    id: inspiration
+    attributes:
+      label: "🤔 What inspired your idea?"
+      description: "Was there a problem, an observation or simply a thought?"
+      placeholder: |
+        I noticed...
+
+        While using ReplicaFlow...
+
+        It came to mind because...
+    validations:
+      required: false
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: "🎯 What do you hope this could improve?"
+      description: "How could this make ReplicaFlow better for users or contributors?"
+      placeholder: |
+        I think this could...
+
+        It would make...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: philosophy
+    attributes:
+      label: "🧭 Where do you think your idea fits best?"
+      description: "Choose the area that feels closest. It's perfectly okay if you're not sure."
+      options:
+        - Information Flow
+        - Visualization
+        - Learning
+        - Operations
+        - Collaboration
+        - Documentation
+        - Community
+        - Simplicity
+        - User Experience
+        - Something else
+        - I'm not sure
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "💬 Is there anything else you'd like to share?"
+      description: "Anything else that helps us understand your idea."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: community
+    attributes:
+      label: "Community agreement"
+      description: "Before submitting, please confirm the following."
+      options:
+        - label: "I understand that ideas evolve through discussion."
+          required: true
+        - label: "I understand that not every idea becomes a feature."
+          required: true
+        - label: "I'm open to questions and feedback from the community."
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ## ❤️ Thank you
+
+        Ideas grow through conversation.
+
+        Thank you for sharing yours with us.
