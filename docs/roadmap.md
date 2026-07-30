@@ -6,12 +6,23 @@
 >
 > This document defines the long-term development roadmap, milestones and future vision of ReplicaFlow.
 >
-> The roadmap is intentionally evolutionary.
-> Every phase builds upon the previous one while remaining faithful to the core philosophy of ReplicaFlow.
+> ReplicaFlow evolves through two parallel journeys.
+>
+> One is the evolution of the software.
+>
+> The other is the evolution of the project itself.
+>
+> Both are equally important.
 
 ---
 
 # Development Philosophy
+
+ReplicaFlow is intentionally developed from the inside out.
+
+Before designing interfaces or writing production code, we establish a shared philosophy, language and community.
+
+We believe that long-term software quality begins with shared understanding.
 
 ReplicaFlow is not built feature-first.
 
@@ -30,16 +41,56 @@ Not the other way around.
 
 ---
 
-# Version 0.1
+# Current Progress
 
-## Vision & Philosophy
+## Released
 
-The goal of Version 0.1 is not software.
+- ✅ Version 0.1.0 — Foundation
+- ✅ Version 0.2.0 — Community Foundation
+- ✅ Version 0.3.0 — Community & Collaboration Foundation
 
-The goal is to define the identity of ReplicaFlow.
+---
+
+## Current Project Phase
+
+### Project Consolidation
+
+ReplicaFlow is currently consolidating the project's language, governance and design philosophy before beginning user interface design.
+
+This is intentionally **not** a software release.
+
+It is an internal project milestone that ensures every future document, mockup and implementation speaks the same language.
+
+### Planned Deliverables
+
+- Writing Guidelines
+- Governance
+- Decision Process
+- Glossary
+- UI Vocabulary
+- Design Vocabulary
+- Design Patterns
+- Community Patterns
+
+Goal:
+
+Create one shared language before designing the user experience.
+
+---
+
+# Released Versions
+
+## Version 0.1.0
+
+### Foundation
+
+The goal of Version 0.1.0 was not software.
+
+The goal was to define the identity of ReplicaFlow.
 
 ### Milestones
 
+- ✅ README
 - ✅ Manifesto
 - ✅ Philosophy
 - ✅ Design Principles
@@ -48,13 +99,55 @@ The goal is to define the identity of ReplicaFlow.
 
 Deliverable:
 
-ReplicaFlow Documentation v0.1
+ReplicaFlow Foundation
 
 ---
 
-# Version 0.2
+## Version 0.2.0
 
-## User Experience
+### Community Foundation
+
+Build the culture, values and standards that guide the project.
+
+### Milestones
+
+- ✅ CONTRIBUTING
+- ✅ CODE_OF_CONDUCT
+- ✅ SECURITY
+- ✅ GitHub Community Standards
+
+Goal:
+
+Build the community before building the software.
+
+---
+
+## Version 0.3.0
+
+### Community & Collaboration Foundation
+
+Create the collaboration platform around ReplicaFlow.
+
+### Milestones
+
+- ✅ GitHub Discussions
+- ✅ Issue Templates
+- ✅ Contribution Workflow
+- ✅ Community Configuration
+- ✅ Release Discussions
+- ✅ Announcement System
+
+Goal:
+
+Create a collaborative development platform around ReplicaFlow.
+
+---
+
+# Upcoming Releases
+
+## Version 0.4.0
+
+### User Experience
 
 Design the complete user experience before implementing the backend.
 
@@ -78,9 +171,9 @@ Anyone should understand ReplicaFlow by simply looking at the interface.
 
 ---
 
-# Version 0.3
+## Version 0.5.0
 
-## Backend Foundation
+### Backend Foundation
 
 Build the technical foundation.
 
@@ -100,9 +193,9 @@ Collect information in real time.
 
 ---
 
-# Version 0.4
+## Version 0.6.0
 
-## Information Flow Visualization
+### Information Flow Visualization
 
 Transform collected data into understandable movement.
 
@@ -125,9 +218,9 @@ See your data move.
 
 ---
 
-# Version 0.5
+## Version 0.7.0
 
-## Operations Deck
+### Operations Deck
 
 ReplicaFlow becomes the administrator's workspace.
 
