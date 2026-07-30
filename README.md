@@ -24,15 +24,24 @@ ReplicaFlow answers a different question:
 
 ---
 
-## Project Status
+## 🚀 Project Status
 
-🚀 **Foundation Complete — v0.1.0**
+**Current Release: v0.2.0 — Community Foundation**
 
-The conceptual foundation of ReplicaFlow has been completed.
+ReplicaFlow has completed both its conceptual and community foundations.
 
-The project now includes its core philosophy, design principles, roadmap and conceptual architecture.
+The project now includes:
 
-The next milestone focuses on building the open-source community before implementation begins.
+- Manifesto
+- Philosophy
+- Design Principles
+- Architecture
+- Roadmap
+- Contributing Guidelines
+- Code of Conduct
+- Security Policy
+
+The next milestone focuses on establishing the collaboration workflow before implementation begins.
 
 No production code has been written yet.
 
@@ -43,8 +52,9 @@ No production code has been written yet.
 | Phase | Status |
 |--------|--------|
 | Foundation | ✅ Complete |
-| Community | ⏳ Planned |
-| Engineering | ⏳ Planned |
+| Community | ✅ Complete |
+| Collaboration | ⏳ Planned |
+| Governance | ⏳ Planned |
 | UI Design | ⏳ Planned |
 | Implementation | ⏳ Planned |
 
@@ -57,14 +67,18 @@ No production code has been written yet.
 - 🎨 [Design Principles](docs/design-principles.md)
 - 🗺️ [Roadmap](docs/roadmap.md)
 - 🏗️ [Architecture](docs/architecture.md)
+- 🤝 [Contributing](CONTRIBUTING.md)
+- ❤️ [Code of Conduct](CODE_OF_CONDUCT.md)
+- 🔒 [Security](SECURITY.md)
 
 ---
 
-## First Public Milestone
+## 🚀 Public Milestones
 
-**ReplicaFlow Foundation (v0.1.0)** establishes the identity and conceptual foundation of the project.
-
-ReplicaFlow begins with understanding before implementation.
+| Version | Milestone | Description |
+|---------|-----------|-------------|
+| **v0.1.0** | ReplicaFlow Foundation | Identity, philosophy and architecture established. |
+| **v0.2.0** | Community Foundation | Collaboration, community culture and security established. |
 
 > *Every project starts with a first line of code.*
 >
