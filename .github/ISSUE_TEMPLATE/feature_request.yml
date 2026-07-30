@@ -1,0 +1,137 @@
+name: "⭐ Propose an improvement"
+description: "Share an improvement that could make ReplicaFlow even better."
+title: "[Improvement]: "
+labels:
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Welcome 👋
+
+        Thank you for taking the time to help improve ReplicaFlow.
+
+        Some improvements begin with an idea.
+
+        Others grow out of experience.
+
+        Whether your suggestion is small or ambitious,
+        we'd love to hear it.
+
+        The best improvements solve real problems,
+        make ReplicaFlow simpler
+        or help people better understand Information Flow.
+
+        ---
+
+        Not every suggestion becomes part of ReplicaFlow.
+
+        But every thoughtful suggestion helps us understand what matters most.
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: "⭐ What would you like to improve?"
+      description: "Tell us about your suggestion in your own words."
+      placeholder: |
+        I'd love to improve...
+
+        It would be useful if...
+
+        I think ReplicaFlow could...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "🤔 What problem would this solve?"
+      description: |
+        Tell us about the challenge you're trying to solve.
+
+        Improvements are often easier to understand when we first understand the problem.
+      placeholder: |
+        Right now...
+
+        It becomes difficult when...
+
+        This could help because...
+    validations:
+      required: false
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: "🎯 Who would benefit from this?"
+      description: |
+        Who do you think would benefit most from this improvement?
+
+        New users?
+
+        Operators?
+
+        Developers?
+
+        Everyone?
+
+        Or maybe you're not sure.
+      placeholder: |
+        I think this would help...
+
+        This could be especially useful for...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: "🧭 Which area would this improve?"
+      description: "Choose the area that feels closest. It's perfectly okay if you're not sure."
+      options:
+        - Information Flow
+        - Visualization
+        - Operations
+        - Learning
+        - Community
+        - Documentation
+        - Performance
+        - User Experience
+        - Something else
+        - I'm not sure
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "💬 Anything else you'd like to share?"
+      description: "Share anything else that helps us understand your proposal."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: community
+    attributes:
+      label: "Community agreement"
+      description: "Before submitting, please confirm the following."
+      options:
+        - label: "I understand that every proposal will be discussed respectfully."
+          required: true
+        - label: "I understand that not every proposal becomes part of ReplicaFlow."
+          required: true
+        - label: "I'm open to questions and feedback from the community."
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ## ❤️ Thank you
+
+        The best improvements begin with someone asking,
+
+        **"What if we could make this even better?"**
+
+        Thank you for asking that question.
