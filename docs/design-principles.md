@@ -2,8 +2,8 @@
 >
 > **How do we build ReplicaFlow?**
 >
-> This document defines the engineering principles behind ReplicaFlow.
-> Every contributor should understand these principles before implementing new features.
+> This document defines the design principles behind ReplicaFlow.
+> Every contributor should understand these principles before designing, implementing or reviewing new features.
 
 # ReplicaFlow Design Principles
 
@@ -19,7 +19,7 @@ They are not temporary ideas.
 
 They are the foundation of ReplicaFlow.
 
-Every new feature, every pull request and every design decision should be measured against these principles.
+Every new feature, every contribution and every design decision should be measured against these principles.
 
 If a feature violates one of these principles, the feature should be redesigned.
 
@@ -110,7 +110,7 @@ Confidence allows administrators to focus on solving incidents instead of unders
 
 ReplicaFlow never hides technical details.
 
-Instead, it explains them.
+Instead, it explains them progressively.
 
 Explorer explains.
 
@@ -155,6 +155,10 @@ ReplicaFlow should support both without changing the Control Tower.
 # Design Principle #005
 
 # Every movement tells a story.
+
+Movement is information.
+
+Animation communicates information.
 
 Movement should never exist because it looks beautiful.
 
@@ -213,6 +217,8 @@ They are different perspectives of the same information.
 ReplicaFlow never changes reality.
 
 Only the explanation changes.
+
+Reality remains consistent across every perspective.
 
 ### Why?
 
@@ -332,9 +338,9 @@ The tools work inside it.
 
 # Stay focused.
 
-ReplicaFlow should solve one problem exceptionally well.
+ReplicaFlow should solve one class of problems exceptionally well.
 
-That problem is the understanding and administration of **Information Flow**.
+That mission is the understanding and administration of **Information Flow**.
 
 Every new feature must strengthen this mission.
 
