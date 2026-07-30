@@ -1,0 +1,150 @@
+name: "🔀 Submit a contribution"
+description: "Share your work with the ReplicaFlow community."
+title: "[Contribution]: "
+labels:
+  - contribution
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Welcome 👋
+
+        Thank you for taking the time to contribute to ReplicaFlow.
+
+        Whether you've written code,
+        improved documentation,
+        created a design,
+        fixed a bug
+        or refined an existing feature,
+
+        you're helping ReplicaFlow grow.
+
+        Every contribution deserves thoughtful review.
+
+        ---
+
+        After you submit your contribution, the Core Team may bring it to the community for discussion before making a final decision.
+
+        The role of the community is to contribute perspectives.
+
+        The role of the Core Team is to protect the philosophy and make decisions that serve the long-term vision of ReplicaFlow.
+
+        Together we build ReplicaFlow.
+
+  - type: textarea
+    id: contribution
+    attributes:
+      label: "🔀 What are you contributing?"
+      description: "Describe your contribution in your own words."
+      placeholder: |
+        I improved...
+
+        I changed...
+
+        I implemented...
+
+        I fixed...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "🧩 What problem does this solve?"
+      description: |
+        Tell us about the problem your contribution addresses.
+
+        Understanding the problem helps everyone better understand the solution.
+      placeholder: |
+        Before this change...
+
+        This was difficult because...
+
+        This contribution solves...
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: "⭐ How does this improve ReplicaFlow?"
+      description: |
+        Help us understand why this contribution is valuable.
+
+        Does it make ReplicaFlow simpler?
+
+        Easier to understand?
+
+        More reliable?
+
+        More intuitive?
+      placeholder: |
+        I believe this improves ReplicaFlow because...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: philosophy
+    attributes:
+      label: "🧭 ReplicaFlow philosophy"
+      description: "Which principles guided your contribution?"
+      options:
+        - label: "It helps people better understand Information Flow."
+        - label: "It keeps or improves the user's mental model."
+        - label: "It makes ReplicaFlow simpler rather than more complex."
+        - label: "It supports learning and understanding."
+        - label: "I'm not sure."
+
+  - type: checkboxes
+    id: documentation
+    attributes:
+      label: "📖 Documentation"
+      description: "Does anything else need to be updated?"
+      options:
+        - label: "README"
+        - label: "Documentation"
+        - label: "Architecture"
+        - label: "Roadmap"
+        - label: "Design Principles"
+        - label: "No documentation updates are needed."
+
+  - type: textarea
+    id: review
+    attributes:
+      label: "👀 Is there anything you'd like reviewers to focus on?"
+      description: |
+        Let us know if there's a specific part of your contribution
+        where you'd especially appreciate feedback.
+      placeholder: |
+        I'm unsure about...
+
+        Please pay special attention to...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: community
+    attributes:
+      label: "Community agreement"
+      description: "Before submitting, please confirm the following."
+      options:
+        - label: "I believe this contribution improves ReplicaFlow."
+          required: true
+        - label: "I understand that every contribution is reviewed with the project's philosophy in mind."
+          required: true
+        - label: "I understand that significant contributions may be discussed with the community before a final decision is made."
+          required: true
+        - label: "I'm open to questions, discussion and feedback."
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ## ❤️ Thank you
+
+        Great software is built by communities, not individuals.
+
+        Thank you for contributing to ReplicaFlow.
