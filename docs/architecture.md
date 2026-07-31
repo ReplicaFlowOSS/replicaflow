@@ -42,9 +42,9 @@ Control Tower
 
 Every architectural component must contribute to understanding or administering Information Flow.
 
-Technology is replaceable.
+Technology changes.
 
-The mental model is not.
+The mental model remains.
 
 ---
 
@@ -382,6 +382,8 @@ This supports Explorer, Operator and Expert modes without creating different sou
 
 The Information Flow Model is the internal language of ReplicaFlow.
 
+It is also the shared language between providers, the backend, the Control Tower and future extensions.
+
 Different technologies use different terminology.
 
 ReplicaFlow translates them into shared concepts that can be visualized consistently.
@@ -515,9 +517,9 @@ Collector
       ↓
 Normalizer
       ↓
-Information Flow Engine
-      ↓
 Information Flow Model
+      ↓
+Information Flow Engine
       ↓
 Backend API
       ↓
@@ -877,9 +879,9 @@ The ReplicaFlow architecture follows these principles:
 
 The architecture exists to support the administrator's workspace.
 
-## Visualization is the core
+## Understanding is the goal
 
-Information Flow must become visible and understandable.
+Visualization is the primary interface for creating understanding.
 
 ## Collect centrally when possible
 
@@ -927,4 +929,4 @@ ReplicaFlow is built around the visualization and administration of Information 
 
 The architecture may evolve.
 
-The Control Tower must remain understandable.
+The user's mental model must remain stable.
